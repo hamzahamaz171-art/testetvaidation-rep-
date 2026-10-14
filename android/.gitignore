@@ -1,0 +1,33 @@
+# OSX
+.DS_Store
+
+# Dependencies
+node_modules/
+
+# React Native / Metro
+.metro-health-check*
+.metro-cache/
+
+# Android / IntelliJ
+build/
+.idea/
+.gradle/
+local.properties
+*.iml
+*.hprof
+.cxx/
+
+# iOS
+ios/Pods/
+ios/build/
+
+# Bundle artifacts
+*.jsbundle
+
+# Expo (si le projet utilise Expo)
+.expo/
+dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
